@@ -425,6 +425,10 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+html{
+  scroll-behavior: smooth;  
+}
+
 /* ---- Responsive ---- */
 @media (max-width: 600px) {
   .navbar { padding: 0 1rem; }

@@ -32,7 +32,11 @@ function Home({ projects, addProject }) {
         Showing <span>{filtered.length}</span> of <span>{projects.length}</span> projects
         {search && ` for "${search}"`}
       </p>
-      <ProjectList projects={filtered} />
+      
+
+      <div id="projects">
+        <ProjectList projects={filtered} />
+      </div>
     </main>
   );
 }
